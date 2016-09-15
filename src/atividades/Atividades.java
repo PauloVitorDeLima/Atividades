@@ -10,7 +10,7 @@ import java.util.Scanner;
  * @author Aluno
  */
 public class Atividades {
-//gfjff//
+
     /**
      * @param args the command line arguments
      */
