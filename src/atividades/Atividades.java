@@ -16,21 +16,59 @@ public class Atividades {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        //exercicio01();
-        //exercicio02();
-        // exercicio03(); 
-        //exercicio04();
-        //exercicio05();
-        //exercicio06();
-        //exercicio07();
-        //exercicio08();
-        //exercicio09();
-        //exercicio10();
-        //exercicio11();
-        //exercicio12();
-        //exercicio13();
-        //exercicio14();
-        //exercicio15();
+        Scanner s = new Scanner(System.in);
+        int op = 1;
+        while(op < 15 && op > 0){
+            System.out.println("Escolha um exercício");
+            op = in.nextInt();
+            if(op == 1){
+                exercicio01();
+            }
+            if(op == 2){
+                exercicio02();
+            }
+            if(op == 3){
+                exercicio03();
+            }
+            if(op == 4){
+                exercicio04();
+            }
+            if(op == 5){
+                exercicio05();
+                
+            }
+            if(op == 6){
+            exercicio06();
+            }
+            if(op == 7){
+                exercicio07();
+            }
+            if(op == 8){
+                exercicio08();
+            }
+            if(op == 9){
+                exercicio09();
+            }
+            if(op == 10){
+                exercicio10();
+            }
+            if(op == 11){
+            exercicio11();
+            }
+            if(op == 12){
+                exercicio12();
+            }
+            if(op == 13){
+                exercicio13();
+            }
+            if(op == 14){
+                exercicio14();
+                
+            }
+            if(op == 15){
+                exercicio15();
+            }
+        }
     }
   public static void exercicio01(){
         Scanner s = new Scanner(System.in);
